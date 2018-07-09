@@ -7,10 +7,6 @@ nnoremap <leader>wj <C-w><C-j>
 nnoremap <leader>wk <C-w><C-k>
 nnoremap <leader>wl <C-w><C-l>
 
-nnoremap <silent> <leader>ls :LinuxCodingStyle<cr>
-let g:linuxsty_patterns = [ "/linux/", "/kernel/" ]
-
-
 set hlsearch
 set incsearch
 set ignorecase
@@ -18,4 +14,7 @@ set smartcase
 set nobackup
 set noswapfile
 
+
+set exrc
+set secure
 
