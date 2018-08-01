@@ -13,6 +13,7 @@ set ignorecase
 set smartcase
 set nobackup
 set noswapfile
+set modeline
 
 
 set exrc
